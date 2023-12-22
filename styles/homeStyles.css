@@ -1,0 +1,161 @@
+
+
+.navbarhome{
+    background-color:#fd91e2;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    gap: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+  }
+
+
+  #logoutButton{
+    border: none;
+  border-radius: 100px;
+  background-color: #d836b0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #f3aed4;
+  font-size: larger;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  right:50px;
+  bottom: 20px;
+  transition-duration: 0.4s;
+  }
+
+  #logoutButton:hover{
+    background-color:#880d88;
+    color: #f3aed4;
+  }
+  .header{
+    display: flex;
+    background-image: url("/CAJERO/images/atm.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    color: #880d88;
+    font-size:larger;
+  }
+
+.logo{
+   position: absolute;
+   width: 10%;
+   left: 475px;
+   top: 120px;
+}
+
+#users{
+   position: absolute;
+   width: 200px;
+   left: 440px;
+   top: 240px;
+   border-color: #d836b0;
+   border-width: 10px;
+   border-style: groove;
+   border-radius: 30px;
+   height: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #880d88;
+
+}
+.image-overlay {
+  position: absolute;
+  top: 410px;
+  right: 550px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#userImage {
+  max-width: 200px; /* Adjust size as needed */
+  border: none; /* Optional border */
+  border-radius: 5px; /* Optional border radius */
+}
+#userActions{
+    position: relative;
+    height: 350px;
+    background-color: #d836b0;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    left: 250px;
+    border-radius: 300px;
+    border: #880d88;
+    border-width: 10px;
+}
+
+
+
+.ConsultarButton{
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    background-color: #f3aed4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #880d88;
+    transition-duration: 0.4s;
+    border-style:groove;
+    margin: 10px;
+  }
+
+.ConsultarButton:hover{
+    background-color:#880d88;
+    color: #f3aed4;
+  }
+
+
+.DepositarButton{
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    background-color: #f3aed4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #880d88;
+    transition-duration: 0.4s;
+    border-style:groove;
+    margin: 10px;
+  }
+
+  .DepositarButton:hover{
+    background-color:#880d88;
+    color: #f3aed4;
+  
+}
+
+.RetirarButton{
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    background-color: #f3aed4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #880d88;
+    transition-duration: 0.4s;
+    border-style:groove;
+    margin: 10px;
+  }
+
+  .RetirarButton:hover{
+    background-color:#880d88;
+    color: #f3aed4;
+  }
+  

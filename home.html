@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/homeStyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="./controllers/home.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Becky ATM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acceso</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control" type="search" placeholder="Numero de cliente" aria-label="Search">
+              <button class="btn" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="header">
+        <h4 class="titulo">BIENVENIDA A </h4>
+      <img class="logo" src="images/LOGO.png" alt="">
+
+      <select id="users" onchange="displayUserImage()">
+        <option value="user0">Selecciona un usuario</option>
+        <option value="user1">Barbie</option>
+        <option value="user2">Courtney</option>
+        <option value="user3">Madison</option>
+      </select>
+
+        <div id="userActions">
+            <label for="ConsultarSaldo"><button onclick="checkBalance()" class="ConsultarButton">Consultar saldo</button></label>
+            <label for="DepositarSaldo"><button onclick="makeDeposit()" class="DepositarButton" >Depositar saldo</button></label>
+            <label for="RetirarSaldo"><button onclick="makeWithdrawal()" class="RetirarButton">Retirar saldo</button></label>
+        </div>
+        <div class="image-overlay">
+          <img src="" alt="User Image" id="userImage">
+        </div>
+            <div id="actionResult"></div>
+        
+
+        <button id="logoutButton">Cerrar sesión</button>
+      </div>
+      
+</body>
+</html>

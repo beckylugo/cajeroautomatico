@@ -1,0 +1,77 @@
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    padding-top: 100px;
+    background-image: url("/CAJERO/images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+#login {
+  background-color: #ffa1f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 200px;
+  padding: 60px;
+  width: 400px;
+  height: 400px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #851168;
+  font-size: larger;
+
+}
+
+#loginButton {
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d836b0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #f3aed4;
+  font-size: larger;
+
+}
+
+.btn{
+  background-color:#f3aed4;
+  color: #f3aed4;
+}
+
+
+.navbar{
+  background-color:#fd91e2;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #851168;
+}
+.logo{
+  position: absolute;
+  width: 20%;
+  left: 600px;
+  top: 80px;
+}
+
+#userinput{
+  border-radius: 20px;
+    border-color: #ff99d1;
+    border-width: 10px;
+    border-style:groove;
+    margin: 5px;
+}
+
+#passwordinput{
+  border-radius: 20px;
+    border-color: #ff99d1;
+    border-width: 10px;
+    border-style:groove;
+    margin: 5px;
+}
